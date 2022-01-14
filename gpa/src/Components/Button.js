@@ -4,7 +4,8 @@ const Button = (props) => {
         <div>
             <button
                 onClick={props.onClick}
-                style={{backgroundColor : props.color}} id='button'
+                style={{backgroundColor : props.color}}
+                id='button'
             >
                 {props.text}
             </button>
